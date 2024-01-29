@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        app:fragment="com.example.taskmanager.Configurations.SettingsActivity$ThemeFragment"
+        app:icon="@drawable/ic_theme_black"
+        app:key="theme_header"
+        app:title="@string/header_theme" />
+
+    <Preference
+        app:fragment="com.example.taskmanager.Configurations.SettingsActivity$NotificationsFragment"
+        app:icon="@drawable/ic_notifications_black"
+        app:key="notifications_header"
+        app:title="@string/header_notifications" />
+
+    <Preference
+        app:fragment="com.example.taskmanager.Configurations.SettingsActivity$TimeFragment"
+        app:icon="@drawable/ic_time_mode"
+        app:key="time_header"
+        app:title="@string/header_time" />
+
+    <Preference
+        android:key="info_header"
+        android:icon="@drawable/ic_outline_info"
+        app:title="@string/header_info">
+
+        <intent android:action="callInfoActivity"/>
+
+    </Preference>
+
+</PreferenceScreen>

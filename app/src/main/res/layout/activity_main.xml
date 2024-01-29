@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:theme="@style/Theme.BackgroundDefault"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.AppBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextColor="@color/white"
+            app:popupTheme="@style/Widget.AppCompat.PopupMenu" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout_main">
+
+        <Button
+            android:id="@+id/main_btn_Monday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="15dp"
+            android:theme="@style/ButtonDefault"
+            android:onClick="callTaskOfDay"
+            android:text="@string/monday" />
+
+        <Button
+            android:id="@+id/main_btn_Tuesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="15dp"
+            android:theme="@style/ButtonDefault"
+            android:onClick="callTaskOfDay"
+            android:text="@string/tuesday" />
+
+        <Button
+            android:id="@+id/main_btn_Wednesday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="15dp"
+            android:theme="@style/ButtonDefault"
+            android:onClick="callTaskOfDay"
+            android:text="@string/wednesday" />
+
+        <Button
+            android:id="@+id/main_btn_Thursday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="15dp"
+            android:theme="@style/ButtonDefault"
+            android:onClick="callTaskOfDay"
+            android:text="@string/thursday" />
+
+        <Button
+            android:id="@+id/main_btn_Friday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="15dp"
+            android:theme="@style/ButtonDefault"
+            android:onClick="callTaskOfDay"
+            android:text="@string/friday" />
+
+        <Button
+            android:id="@+id/main_btn_Saturday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="15dp"
+            android:theme="@style/ButtonDefault"
+            android:onClick="callTaskOfDay"
+            android:text="@string/saturday" />
+
+        <Button
+            android:id="@+id/main_btn_Sunday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="60dp"
+            android:layout_marginVertical="15dp"
+            android:theme="@style/ButtonDefault"
+            android:onClick="callTaskOfDay"
+            android:text="@string/sunday" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

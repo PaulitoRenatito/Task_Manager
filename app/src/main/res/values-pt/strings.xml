@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gerenciador de Tarefas : PR</string>
+    <string name="monday">Segunda-Feira</string>
+    <string name="tuesday">Terça-Feira</string>
+    <string name="wednesday">Quarta-Feira</string>
+    <string name="thursday">Quinta-Feira</string>
+    <string name="friday">Sexta-Feira</string>
+    <string name="saturday">Sábado</string>
+    <string name="sunday">Domingo</string>
+    <string name="clear_all">Limpar tudo</string>
+    <string name="removed">Removido</string>
+    <string name="all_removed">Todas as tarefas foram removidas</string>
+    <string name="no_task_to_remove">Não há tarefa a ser removida</string>
+    <string name="priority">Prioridade:</string>
+    <string name="task_title_hint">Título da Tarefa</string>
+    <string name="task_description_hint">Descrição da Tarefa</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="error_need_title">A tarefa precisa de um Título</string>
+    <string name="error_same_time">Você já tem uma Tarefa agendada nesse horário</string>
+    <string name="string_normal">Normal</string>
+    <string name="string_high">Alta</string>
+    <string name="string_very_high">Muito Alta</string>
+    <string name="title_activity_settings">Configurações</string>
+    <string name="header_theme">Tema</string>
+    <string name="header_notifications">Notificações</string>
+    <string name="header_time">Tempo</string>
+    <string name="header_info">Informação</string>
+    <string name="switch_theme">Mudar de Tema</string>
+    <string name="theme_dark_on">Tema Escuro Ativado</string>
+    <string name="theme_dark_off">Tema Escuro Desativado</string>
+    <string name="notification_enabled">Notificações Ativadas</string>
+    <string name="notification_disabled">Notificações Desativadas</string>
+    <string name="general_pref_category">Geral</string>
+    <string name="configure_pref_category">Configurar Canais</string>
+    <string name="configure_normal_channel">Canal de Prioridade Normal</string>
+    <string name="configure_high_channel">Canal de Prioridade Alta</string>
+    <string name="configure_very_high_channel">Canal de Prioridade Muito Alta</string>
+    <string name="time_mode">Modo de Tempo</string>
+    <string name="time_mode_12h">Usando a convenção do relógio de 12 horas</string>
+    <string name="time_mode_24h">Usando a convenção do relógio de 24 horas</string>
+    <string name="info_add_task_title">Como adicionar uma tarefa?</string>
+    <string name="info_priority_behaviour_title">Como funciona a prioridade?</string>
+    <string name="add_task_first">
+        A primeira coisa a fazer é escolher o dia em que a Tarefa será adicionada.
+        A próxima etapa é pressionar o botão Adicionar Tarefa.
+        Quando pressionado, aparecerá uma tela para que as características da Tarefa sejam definidas.
+        Após definir a Hora, Prioridade, Título e Descrição, pressione o botão confirmar.
+    </string>
+    <string name="add_task_second">
+        As Tarefas sempre serão classificadas automaticamente em ordem crescente de tempo.
+    </string>
+    <string name="add_task_third">
+        Para remover uma Tarefa, basta desliza-la para o lado.
+        Para remover todas as Tarefas basta pressionar o botão no canto superior direito da tela.
+    </string>
+    <string name="priority_include_first">
+        Uma Tarefa pode ter três prioridades: Normal, Alta e Muito Alta.
+        Por padrão, as tarefas de prioridade normal só aparecem na barra de notificação,
+        A tarefa de alta prioridade aparece e vibra e
+        A tarefa de prioridade muito alta aparece, vibra e tem um som.
+    </string>
+    <string name="priority_include_second">
+        Mas você pode alterar cada comportamento de prioridade pressionando o botão de engrenagem
+        no canto superior direito da tela do Gerenciador de Tarefas, em seguida, Notificações,
+        em seguida, o Canal de Prioridade que você deseja configurar.
+    </string>
+    <string name="operation_guide">Guia de operação</string>
+</resources>

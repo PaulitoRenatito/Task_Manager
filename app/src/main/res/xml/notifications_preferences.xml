@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/general_pref_category">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:key="notifications_enabled_switch"
+            android:title="@string/header_notifications"
+            android:summary="@string/notification_enabled"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/configure_pref_category">
+
+        <Preference
+            android:key="configure_normal_channel"
+            android:title="@string/configure_normal_channel"/>
+
+        <Preference
+            android:key="configure_high_channel"
+            android:title="@string/configure_high_channel"/>
+
+        <Preference
+            android:key="configure_very_high_channel"
+            android:title="@string/configure_very_high_channel"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

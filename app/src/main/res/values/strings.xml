@@ -1,0 +1,118 @@
+<resources>
+
+    <string name="app_name">Task Manager : PR</string>
+
+    <!-- region MainActivity -->
+
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="clear_all">Clear all</string>
+
+    <!-- endregion -->
+
+    <!-- region TasksOfDay -->
+
+    <string name="removed">Removed</string>
+    <string name="all_removed">All tasks have been removed</string>
+    <string name="no_task_to_remove">There is no task to be removed</string>
+
+    <!-- Dialog -->
+    <string name="priority">Priority:</string>
+    <string name="task_title_hint">Task Title</string>
+    <string name="task_description_hint">Task Description</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <!-- Error Messages -->
+    <string name="error_need_title">The Task needs a Title</string>
+    <string name="error_same_time">You already have a task scheduled at this time</string>
+    <!-- Spinner Priority Items -->
+    <string name="string_normal">Normal</string>
+    <string name="string_high">High</string>
+    <string name="string_very_high">Very High</string>
+
+    <string-array name="priorities_selection">
+        <item>@string/string_normal</item>
+        <item>@string/string_high</item>
+        <item>@string/string_very_high</item>
+    </string-array>
+
+    <!-- endregion TasksOfDay -->
+
+    <!-- region Settings Activity -->
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Header Preferences -->
+    <string name="header_theme">Theme</string>
+    <string name="header_notifications">Notifications</string>
+    <string name="header_time">Time</string>
+    <string name="header_info">Information</string>
+    <!-- Theme Preferences -->
+    <string name="switch_theme">Switch Theme</string>
+    <string name="theme_dark_on">Dark Theme On</string>
+    <string name="theme_dark_off">Dark Theme Off</string>
+    <!-- Notifications Preferences -->
+    <string name="notification_enabled">Notifications Enabled</string>
+    <string name="notification_disabled">Notifications Disabled</string>
+    <string name="general_pref_category">General</string>
+    <string name="configure_pref_category">Configure Channels</string>
+    <string name="configure_normal_channel">Normal Priority Channel</string>
+    <string name="configure_high_channel">High Priority Channel</string>
+    <string name="configure_very_high_channel">Very High Priority Channel</string>
+    <!-- Preferences Preferences -->
+    <string name="time_mode">Time Mode</string>
+    <string name="time_mode_12h">Using 12-hour clock convention</string>
+    <string name="time_mode_24h">Using 24-hour clock convention</string>
+
+
+    <!-- endregion Settings Activity -->
+
+    <!-- region Activity Info -->
+
+    <!-- region Add Task Fragment -->
+
+    <string name="operation_guide">Operation Guide</string>
+
+    <string name="info_add_task_title">How to add a Task?</string>
+    <!-- include Add Task -->
+    <string name="add_task_first">
+        The first thing to do is to choose the day when the task will be added.
+        The next step is to press the add task button.
+        When pressed, a screen will appear for the task characteristics to be defined.
+        After setting the time, priority, title and description, press the confirm button.
+    </string>
+
+    <string name="add_task_second">
+        Tasks will always be sorted automatically in ascending order of time.
+    </string>
+
+    <string name="add_task_third">
+        To remove a task, simply swipe it to the side.
+        To remove all tasks just press the button in the upper right corner of the screen.
+    </string>
+    <!-- endregion -->
+
+    <!-- region Priority Fragment -->
+    <string name="info_priority_behaviour_title">How does priority works?</string>
+    <!-- include Priority -->
+    <string name="priority_include_first">
+        A Task can have three priorities: Normal, High and Very High.
+        By default, Normal priority tasks only appears on notification bar,
+        High priority task appears and vibrate and
+        Very High priority task appears, vibrate and have a sound.
+    </string>
+    <string name="priority_include_second">
+        But you can change each Priority behaviour by pressing the gear button
+        in the upper right corner of the Task Manager screen, then Notifications,
+        then the Priority Channel you want to configure.
+    </string>
+    <!-- endregion -->
+
+    <!-- endregion -->
+
+</resources>

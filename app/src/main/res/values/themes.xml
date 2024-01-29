@@ -1,0 +1,140 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TaskManager" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="snackbarStyle">@style/SnackBarStyle</item>
+        <item name="snackbarTextViewStyle">@style/SnackBarTextStyle</item>
+    </style>
+
+    <style name="Test" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+
+        <item name="actionBarStyle">@style/Test.ActionBar</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Test.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="background">@color/purple_500</item>
+        <item name="titleTextStyle">@style/Test.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="Test.ActionBar.TitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:titleTextColor">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- region Dialog styles -->
+
+    <style name="DialogTimePicker">
+        <item name="android:headerBackground">@color/purple_500</item>
+        <item name="android:numbersSelectorColor">@color/purple_500</item>
+    </style>
+
+    <style name="DialogText">
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="DialogButton">
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="DialogDivider">
+        <item name="android:background">@color/purple_500</item>
+    </style>
+
+    <style name="DialogEditText">
+        <item name="colorControlActivated">@color/purple_500</item>
+    </style>
+
+    <!-- endregion -->
+
+    <style name="SnackBarStyle" parent="Widget.MaterialComponents.Snackbar">
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="elevation">6dp</item>
+    </style>
+
+    <style name="SnackBarTextStyle" parent="Widget.MaterialComponents.Snackbar.TextView">
+        <item name="backgroundTint">@color/purple_500</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="elevation">6dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <style name="ButtonDefault" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <!-- region Info styles -->
+    <style name="ButtonDropDown" parent="Widget.AppCompat.Button">
+        <item name="background">@color/purple_500</item>
+        <item name="android:drawableEnd">@drawable/ic_arrow_down</item>
+        <item name="android:drawableTint">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="InfoTittleText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="InfoDivider">
+        <item name="background">@color/black</item>
+    </style>
+    <!-- endregion -->
+
+
+    <style name="Theme.FAB" parent="ButtonDefault">
+        <item name="elevation">4dp</item>
+    </style>
+
+    <style name="Theme.BackgroundDefault" parent="Theme.TaskManager">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Theme.AppBar" parent="Theme.TaskManager">
+        <item name="android:backgroundTint">@color/purple_500</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:tint">@color/white</item>
+    </style>
+
+    <!-- region Item List -->
+    <style name="Theme.ItemListTitle" parent="Theme.TaskManager">
+        <item name="android:background">@color/gray_100</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Theme.ItemListDescription" parent="Theme.TaskManager">
+        <item name="android:background">@color/gray_100</item>
+        <item name="android:textColor">@color/black_200</item>
+    </style>
+
+    <style name="Theme.ItemListBackground" parent="Theme.TaskManager">
+        <item name="android:background">@color/gray_100</item>
+    </style>
+    <!-- endregion -->
+
+</resources>
